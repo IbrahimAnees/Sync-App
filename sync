@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ "$#" -ne 2 ]; then
+    echo "Error: Please enter two valid directories!"
+else
+	java -jar a2.jar $1 $2
+fi
